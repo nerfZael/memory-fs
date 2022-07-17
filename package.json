@@ -1,0 +1,38 @@
+{
+  "name": "@nerfzael/memory-fs",
+  "version": "0.1.0",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "author": "nerfZael",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "/bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerfZael/memory-fs.git"
+  },
+  "keywords": [
+    "memory",
+    "in-memory",
+    "fs",
+    "filesystem",
+    "file",
+    "files"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "test": "jest --passWithNoTests --verbose"
+  },
+  "dependencies": {
+    "typescript": "4.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "16.11.11",
+    "jest": "28.1.2",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.3.0"
+  }
+}
